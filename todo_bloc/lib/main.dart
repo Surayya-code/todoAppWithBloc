@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'To Do App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        primaryColor: Colors.amber,
+        primaryColor: Colors.black,
         appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 2, 35, 51)),
       ),
       home: const HomeScreen(),

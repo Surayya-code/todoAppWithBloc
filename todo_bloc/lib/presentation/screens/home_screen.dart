@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../models/todo_model.dart';
+import 'add_todo_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,7 +13,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text('To Do with Bloc'),
         actions: [
           IconButton(onPressed: (){
-            //Navigator.push(context, AddToScreen());
+            Navigator.push(context,  MaterialPageRoute(builder: (context)=>const AddToDoScreen()));
           },
            icon: const Icon(Icons.add)),
         ],
