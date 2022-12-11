@@ -43,15 +43,6 @@ class ToDo extends Equatable{
       isCompleted,
      ];
   static List<ToDo> todo=[
-    ToDo(
-        id: '1',
-        task: 'Sample Todo 1',
-        description: 'This is a test To Do',
-        ),
-    ToDo(
-        id: '2',
-        task: 'Sample Todo 2',
-        description: 'This is a test To Do',
-        ),
+  
   ] ;
 }

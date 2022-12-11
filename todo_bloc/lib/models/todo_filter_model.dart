@@ -1,0 +1,1 @@
+enum ToDoFilter{ all, completed,cancelled, pending}
